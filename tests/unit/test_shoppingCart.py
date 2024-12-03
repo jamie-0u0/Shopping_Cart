@@ -147,7 +147,7 @@ class TestShoppingCart(unittest.TestCase):
         sys.stdout = sys.__stdout__
 
         self.assertEqual(actual_output, expected_output)
-        self.assertNotIn(product_id, [item['id'] for item in cart.shopping_cart])
+        self.assertNotIn(1, [item['id'] for item in cart.shopping_cart])
 
 if __name__ == '__main__':
     unittest.main()
