@@ -50,7 +50,7 @@ class ShoppingCart:
         else:
             print("\n餘額不足")
 
-    def remove_item_in_cart(self, prouduct_id):
+    def remove_item_in_cart(self, product_id):
         has_item = False
         for item in self.shopping_cart:
             if item['id'] == product_id:
