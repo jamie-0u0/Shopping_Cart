@@ -55,7 +55,7 @@ class ShoppingCart:
         for item in self.shopping_cart:
             if item['id'] == product_id:
                 self.shopping_cart.remove(item)
-                print(f"\n{item['name']}已從購物車中移除。")
+                print(f"\n{item['name']} 已從購物車中移除。")
                 has_item = True
                 break
             
